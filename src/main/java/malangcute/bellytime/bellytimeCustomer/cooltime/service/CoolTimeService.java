@@ -70,19 +70,7 @@ public class CoolTimeService {
         System.out.println(mylist);
 
 
-//        List<GetMyCoolTimeList> myList = coolTimeRepository
-//                .findMyCoolTime(userId).stream()
-//                .map(objects -> new GetMyCoolTimeList(
-//                        (String)objects[0],//food id
-//                        (String)objects[1],//food name
-//                        (String)objects[2],//food img
-//                        (String)objects[3],//cooltime gauge
-//                        (LocalDateTime) objects[4],//cooltime start
-//                        (LocalDateTime) objects[5]))//cooltime end
-//                .collect(Collectors.toList());
 
-//        List<Long> calDays = calPredictDate(myList.indexOf(4));
-//        System.out.println("myist" + myList);
         return null;
 
     }
